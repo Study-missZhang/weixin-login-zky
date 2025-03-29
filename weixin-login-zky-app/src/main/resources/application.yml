@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: weixin-login-zky-app
+  profiles:
+    active: dev
