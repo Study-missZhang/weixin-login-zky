@@ -101,7 +101,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>xfg-dev-tech</finalName>
+        <finalName>weixin-login-zky</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -3,16 +3,25 @@ package com.zky.types.exception;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+/**
+ * @author Fuzhengwei bugstack.cn @小傅哥
+ * @description 应用自定义异常
+ * @create 2024-02-25 12:17
+ */
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class AppException extends RuntimeException {
 
-    private static final long serialVersionUID = 5317680961212299217L;
+    private static final long serialVersionUID = 8653090271840061986L;
 
-    /** 异常码 */
+    /**
+     * 异常码
+     */
     private String code;
 
-    /** 异常信息 */
+    /**
+     * 异常信息
+     */
     private String info;
 
     public AppException(String code) {
@@ -37,7 +46,7 @@ public class AppException extends RuntimeException {
 
     @Override
     public String toString() {
-        return "com.zky.x.api.types.exception.XApiException{" +
+        return "cn.bugstack.x.api.types.exception.AppException{" +
                 "code='" + code + '\'' +
                 ", info='" + info + '\'' +
                 '}';
