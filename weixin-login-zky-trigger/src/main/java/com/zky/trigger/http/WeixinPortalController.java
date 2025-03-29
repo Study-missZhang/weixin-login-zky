@@ -1,8 +1,8 @@
 package com.zky.trigger.http;
 
-import cn.bugstack.xfg.dev.tech.types.sdk.weixin.MessageTextEntity;
-import cn.bugstack.xfg.dev.tech.types.sdk.weixin.SignatureUtil;
-import cn.bugstack.xfg.dev.tech.types.sdk.weixin.XmlUtil;
+import com.zky.types.sdk.weixin.MessageTextEntity;
+import com.zky.types.sdk.weixin.SignatureUtil;
+import com.zky.types.sdk.weixin.XmlUtil;
 import com.google.common.cache.Cache;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
